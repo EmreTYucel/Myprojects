@@ -23,11 +23,8 @@ public class Gradecalculator {
             if (grade < 30) {
                 hasLowGrade = true;
             }
-        }
-        keyboard.close();
-
+        }      
         double average = total / 5.0;
-
         System.out.println("Ortalama:" + average);
         System.out.println("En yüksek not:" + highestgrade);
         System.out.println("En düşük not:" + lowestgrade);
